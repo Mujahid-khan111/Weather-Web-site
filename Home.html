@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud & Rain Animation</title>
+    <link rel="stylesheet" href="./weather2.css">
+ 
+  </head>
+
+  <body>
+    <div class="container">
+      <a href="./Weathr.html"><h2>Enter The Weather Control Room</h2></a>
+    </div>
+    <div class="cloud-container">
+      <div class="big-cloud" id="bigCloud"></div>
+      <div class="image-container">
+        <img
+          src="./image/About/hill1.png"
+          class="main-image"
+          alt="Main image"
+        />
+
+        <img src="./image/About/hill2.png" class="overlay-image" alt="" />
+        <img src="./image/About/hill3.png" class="plant" alt="" />
+        <img src="./image/About/tree.png" class="tree" alt="" />
+        <img src="./image/About/top.png" class="top" alt="" />
+      </div>
+      <!-- <img id="back" src="./image/About/hill1.png" alt="" /> -->
+      <div
+        class="cloud white-cloud"
+        style="left: -300px; top: 30%"
+        id="cloud1"
+      ></div>
+      <div
+        class="cloud black-cloud"
+        style="left: -200px; top: 50%"
+        id="cloud2"
+      ></div>
+
+      <div
+        class="cloud white-cloud"
+        style="left: -400px; top: 70%"
+        id="cloud3"
+      ></div>
+      <div class="lightning"></div>
+    </div>
+    <script src="./weather.js"></script>
+  </body>
+</html>
